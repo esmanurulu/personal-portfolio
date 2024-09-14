@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth; /* Sayfanın kaydırma davranışını yumuşatır */
+}
+
+
+.menu{
+ border-radius: 25px;
+position: relative;
+padding: 20px;
+width: 1400px;
+height: 60px;
+background: #01185f;
+
+}
+
+.menu nav {
+    display: flex;
+    width: 100%; /* Burası %100 yaparak genişliği tam sayfanın genişliği olarak belirleyebilirsin. */
+    margin: auto; /* Bunu eklemek merkezi ortalamak için. */
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between; /* Elemanlar arasındaki boşlukları dağıtır */
+}
+
+.menu nav ul li{
+    display: inline-block;
+    list-style: lower-alpha;
+    margin: 10px 10px;
+    
+}
+
+nav ul li a{
+    text-decoration: underline overline #c2c6d2;
+    letter-spacing: +8px;
+    text-decoration: wavy;
+    margin-left: 220px;
+    color: burlywood;
+    font-weight: bold;
+    font-size: larger;
+
+    
+}
+
+nav ul li a:hover{
+    color: rgb(210, 166, 255);
+}
+
+
+
+.images img{
+    width: 17%;
+    left: 940px;
+    top: 200px;
+    position: absolute;
+     
+}
+
+.ghb h4{
+    background-position: 50% 50%;
+    color: #00103f;
+    font-size: 40px;
+    margin-top: 80px;
+    margin-left: 380px;
+}
+.ghb li{
+    display: inline-block;
+    list-style: lower-alpha;
+    margin: 10px 20px;
+    
+}
+.ghb img{
+    width: 37%;
+    margin-left: 442px;
+    
+
+}
+.ghb2 img{
+    width: 37%;
+    margin-left: 442px;
+
+}
+.ghb li a{
+    margin-left: 510px;
+    margin-top: 80px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: rgb(140, 106, 215);
+    font-weight: bold;
+    font-size: larger;
+    font-size: 30px;
+}
+.ghb2 li a{
+    margin-left: 520px;
+    top: 100px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: rgb(140, 106, 215);
+    font-weight: bold;
+    font-size: larger;
+    font-size: 30px;
+}
+
+.ghb2 li {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+
+.about h4{
+    background-position: 50% 50%;
+    color: #00103f;
+    font-size: 40px;
+    margin-top: 80px;
+    margin-left: 500px;
+}
+.about h1{
+    display: flex;
+    font-size: 22px;
+    flex-direction: column; /* Makes the content stack vertically */
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    text-align: center; /* Centers the text */
+}
+body {
+    background-color: rgb(234, 228, 228); 
+    overflow-x: hidden; /* Yatay kaydırma çubuğunu gizler */
+    overflow-y: auto;
+    min-height: 4000px; /* Sayfanın minimum yüksekliği */
+    height: 400px; /* Animasyonun başladığı yükseklik */
+}
+.container h1{
+    position: absolute;
+    top: 210px;
+    left: 480px; 
+    font-size: 70px;
+    color: #00103f;
+    margin-bottom: 25px;
+    z-index: 2; /* Yazıyı diğer elemanların üzerine çıkarır */
+
+}
+.container p{
+    position: absolute;
+    top: 290px; 
+    left: 480px; 
+    font-size: 25px;
+    color: #00103f;
+    margin-bottom: 20px;
+    z-index: 2; /* Yazıyı diğer elemanların üzerine çıkarır */
+
+}
+
+.container hr{
+    position: absolute;
+    margin-left: 420px;
+    background-color: #01185f;
+    top: 340px; 
+    left: 60px;
+    border-width: 0;
+    height: 10px;
+    width: 800px;
+
+}
+
+.container {
+    border-radius: 25px;
+    width: 1400px;
+    height: 800px;
+    position: relative;
+    border: 0px;
+    overflow: hidden; /* Animasyonun dışına çıkan öğe gizlenir */
+}
+.links a {
+    position: relative;
+    display: inline; /* Linkleri aynı satırda gösterir */
+    margin-right: 100px; /* İki link arasında boşluk bırakır */
+    text-decoration: none;
+    font-family: "Lucida Console", "Courier New", monospace; 
+    color: #01185f; 
+    font-weight: bold; 
+    font-size: larger; 
+    font-size: 32px; 
+    top: 440px; 
+    margin-left: 100px;
+}
+
+.links a:hover {
+    color: rgb(115, 16, 213); 
+}
+.links a:first-child {
+    padding-right: 300px; 
+}
+#hedef-kisim {
+    margin-top: 50px; 
+}
+.animated-box {
+    border-radius: 25px;
+    width: 1400px;
+    height: 600px;
+    position: absolute;
+    background-color: rgb(234, 152, 152);
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation: example 8s infinite; 
+}
+
+@keyframes example {
+    0%   {background-color: rgb(235, 176, 176); left: 0px; top: 0px;}
+    25%  {background-color: rgb(234, 234, 122); left: 0x; top: 0px;}
+    50%  {background-color: rgb(166, 166, 226); left: 0px; top: 0px;}
+    75%  {background-color: rgb(168, 231, 168); left: 0px; top: 0px;}
+    100% {background-color: rgb(182, 237, 240); left: 0px; top: 0px;}
+}
+
+
+
+
+
+
+
