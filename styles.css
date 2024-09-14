@@ -5,7 +5,7 @@
 }
 
 html {
-    scroll-behavior: smooth; /* Sayfanın kaydırma davranışını yumuşatır */
+    scroll-behavior: smooth; 
 }
 
 
@@ -21,11 +21,11 @@ background: #01185f;
 
 .menu nav {
     display: flex;
-    width: 100%; /* Burası %100 yaparak genişliği tam sayfanın genişliği olarak belirleyebilirsin. */
-    margin: auto; /* Bunu eklemek merkezi ortalamak için. */
+    width: 100%; 
+    margin: auto; 
     padding: 20px 0;
     align-items: center;
-    justify-content: space-between; /* Elemanlar arasındaki boşlukları dağıtır */
+    justify-content: space-between; 
 }
 
 .menu nav ul li{
@@ -121,17 +121,17 @@ nav ul li a:hover{
 .about h1{
     display: flex;
     font-size: 22px;
-    flex-direction: column; /* Makes the content stack vertically */
-    justify-content: center; /* Centers content vertically */
-    align-items: center; /* Centers content horizontally */
-    text-align: center; /* Centers the text */
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
 }
 body {
     background-color: rgb(234, 228, 228); 
-    overflow-x: hidden; /* Yatay kaydırma çubuğunu gizler */
+    overflow-x: hidden; 
     overflow-y: auto;
-    min-height: 4000px; /* Sayfanın minimum yüksekliği */
-    height: 400px; /* Animasyonun başladığı yükseklik */
+    min-height: 4000px; 
+    height: 400px; 
 }
 .container h1{
     position: absolute;
@@ -140,7 +140,7 @@ body {
     font-size: 70px;
     color: #00103f;
     margin-bottom: 25px;
-    z-index: 2; /* Yazıyı diğer elemanların üzerine çıkarır */
+    z-index: 2; 
 
 }
 .container p{
@@ -150,7 +150,7 @@ body {
     font-size: 25px;
     color: #00103f;
     margin-bottom: 20px;
-    z-index: 2; /* Yazıyı diğer elemanların üzerine çıkarır */
+    z-index: 2; 
 
 }
 
@@ -172,12 +172,12 @@ body {
     height: 800px;
     position: relative;
     border: 0px;
-    overflow: hidden; /* Animasyonun dışına çıkan öğe gizlenir */
+    overflow: hidden; 
 }
 .links a {
     position: relative;
-    display: inline; /* Linkleri aynı satırda gösterir */
-    margin-right: 100px; /* İki link arasında boşluk bırakır */
+    display: inline; 
+    margin-right: 100px; 
     text-decoration: none;
     font-family: "Lucida Console", "Courier New", monospace; 
     color: #01185f; 
