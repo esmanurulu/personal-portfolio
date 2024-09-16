@@ -1,1 +1,1 @@
-https://personal-portfolio-weld-seven-36.vercel.app/
+https://personal-portfolio-gn52.vercel.app/
