@@ -62,11 +62,11 @@ nav ul li a:hover{
 }
 
 .ghb h4{
+    text-align: center;
     background-position: 50% 50%;
     color: #00103f;
     font-size: 40px;
-    margin-top: 80px;
-    margin-left: 380px;
+    
 }
 .ghb li{
     display: inline-block;
@@ -112,11 +112,11 @@ nav ul li a:hover{
 
 
 .about h4{
+    text-align: center;
     background-position: 50% 50%;
     color: #00103f;
     font-size: 40px;
-    margin-top: 80px;
-    margin-left: 500px;
+   
 }
 .about h1{
     display: flex;
