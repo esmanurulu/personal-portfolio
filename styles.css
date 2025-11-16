@@ -61,62 +61,68 @@ nav ul li a:hover{
      
 }
 
-.ghb h4{
-    text-align: center;
+.projects-container {
+    width: 100%;
+    text-align: center; 
+}
+
+.projects-container h4{
     background-position: 50% 50%;
     color: #00103f;
     font-size: 40px;
-    
-}
-.ghb li{
-    display: inline-block;
-    list-style: lower-alpha;
-    margin: 10px 20px;
-    
-}
-.ghb img{
-    width: 37%;
-    margin-left: 442px;
-    
-
-}
-.ghb2 img{
-    width: 37%;
-    margin-left: 442px;
-
-}
-.ghb li a{
-    margin-left: 510px;
     margin-top: 80px;
-    font-family: "Lucida Console", "Courier New", monospace;
-    color: rgb(140, 106, 215);
-    font-weight: bold;
-    font-size: larger;
-    font-size: 30px;
-}
-.ghb2 li a{
-    margin-left: 520px;
-    top: 100px;
-    font-family: "Lucida Console", "Courier New", monospace;
-    color: rgb(140, 106, 215);
-    font-weight: bold;
-    font-size: larger;
-    font-size: 30px;
 }
 
-.ghb2 li {
-    list-style-type: none;
-    padding-left: 0;
-    margin-left: 0;
+.project-card {
+    display: inline-block; 
+    width: 80%; 
+    max-width: 800px; 
+    margin: 20px auto; 
+    padding: 10px;
+    text-align: center; 
+    border-radius: 10px;
+}
+
+.project-card li {
+    list-style-type: none; 
+    margin-bottom: 15px; 
+}
+
+.project-card li a{
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: rgb(140, 106, 215);
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0; 
+}
+
+.project-card li a:hover {
+    text-decoration: underline;
+}
+
+.project-card img{
+    width: 60%; 
+    max-width: 500px; 
+    height: auto;
+    border-radius: 8px;
+}
+
+.project-desc {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 
 .about h4{
-    text-align: center;
     background-position: 50% 50%;
     color: #00103f;
     font-size: 40px;
-   
+    margin-top: 80px;
+    text-align: center; 
 }
 .about h1{
     display: flex;
@@ -125,7 +131,13 @@ nav ul li a:hover{
     justify-content: center; 
     align-items: center; 
     text-align: center; 
+    padding: 0 50px; 
 }
+
+.about h1 strong {
+    color: #01185f;
+}
+
 body {
     background-color: rgb(234, 228, 228); 
     overflow-x: hidden; 
@@ -216,10 +228,3 @@ body {
     75%  {background-color: rgb(168, 231, 168); left: 0px; top: 0px;}
     100% {background-color: rgb(182, 237, 240); left: 0px; top: 0px;}
 }
-
-
-
-
-
-
-
